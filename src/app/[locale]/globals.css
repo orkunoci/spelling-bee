@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+
+  color:black;
+  background: rgb(253, 253, 253)
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.step-item{
+  @apply relative flex flex-col justify-center items-center w-12 ;
+}
+
+.step-item:not(:first-child):before{
+  @apply content-[''] bg-gray-400 absolute w-full h-[1px] right-2/4 top-1/2 -translate-y-2/4;
+}
+.step{
+  @apply w-5 h-5 flex  items-center justify-center z-10 relative bg-gray-200 rounded-full font-semibold text-white
+}
+
+.active .step{
+  @apply bg-yellow-300
+}

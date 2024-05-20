@@ -1,0 +1,28 @@
+{
+    "Components": {
+      "Header": {
+        "title": "Spelling Bee",
+        "subtitle": "Orkun Öci tarafindan Chex Software için geliştirilmiştir."
+      },
+      "ScoreBlock":{
+        "score":"Skor"
+      },
+      "FoundedWordList":{
+        "foundedWords":"Şu ana kadar bu kadar kelime buldunuz"
+      },
+      "Timer":{
+        "gamsestate":"Oyun Bitti"
+      },
+      "Buttons":{
+        "submit":"Kaydet",
+        "delete":"Sil"
+      }
+    },
+    "Toasts":{
+      "errors":{
+        "Foundedword":"Kelime daha önce bulundu",
+        "Notvalidword":"Kelime geçerli değil",
+        "HaveEssentialWord":"Ortadaki harf olmadan kelime oluşturulamaz"
+      }
+    }
+}

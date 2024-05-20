@@ -1,0 +1,31 @@
+{
+    "Components": {
+      "Header":{
+        "title": "Spelling Bee",
+        "subtitle": "Created for Chex Software by Orkun Öci"
+      },
+      "ScoreBlock":{
+        "score":"Score"
+      },
+      "FoundedWordList":{
+        "foundedWords":"Yo've founded these much words"
+      },
+      "Timer":{
+        "gamsestate":"Game Over"
+      },
+      "Buttons":{
+        "submit":"Submit",
+        "delete":"Delete"
+      }
+
+    },
+    "Toasts":{
+      "errors":{
+        "Foundedword":"Word already founded",
+        "Notfoundedword":" Word not founded in the dictionary",
+        "Notvalidword":"Not a valid word",
+        "HaveEssentialWord":"You have to use the essential word"
+      }
+    }
+    
+}

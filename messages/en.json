@@ -10,6 +10,9 @@
       "FoundedWordList":{
         "foundedWords":"Yo've founded these much words"
       },
+      "GameOverModal":{
+        "button":"Play Again"
+      },
       "Timer":{
         "gamsestate":"Game Over"
       },

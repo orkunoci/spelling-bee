@@ -13,6 +13,9 @@
       "Timer":{
         "gamsestate":"Oyun Bitti"
       },
+      "GameOverModal":{
+        "button":"Yeniden Başla"
+      },
       "Buttons":{
         "submit":"Kaydet",
         "delete":"Sil"

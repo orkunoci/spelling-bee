@@ -25,7 +25,7 @@ export const useFetchDictionary = (resetFlag: boolean) => {
             }
           };
           fetchData();
-    }, [resetFlag]);
+    }, [resetFlag,locale]);
 
     return {dictionary,loading,error}
   };

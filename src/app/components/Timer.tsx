@@ -16,7 +16,7 @@ const Timer = () => {
       dispatch(setCountDown());
     }, 1000);
     return () => clearInterval(interval);
-  }, [stateSeconds]);
+  }, [dispatch,stateSeconds]);
 
   useEffect(() => {
     if (stateSeconds === 0) {

@@ -13,7 +13,7 @@ const GameBlock = () => {
     const dispatch = useDispatch();
     useEffect(() => {
       dispatch(setPangram(dictionary))
-    },[dictionary])
+    },[dispatch,dictionary])
     return (
     <>
     <ResultBlock />
